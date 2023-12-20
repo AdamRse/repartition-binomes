@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(201, 97, 66);
+    height: 100vh;
+    overflow: hidden;
+    font-size: 0;
+}
+.ligne{
+    display: inline-block;
+    height: 20%;
+    margin: 5% 0;
+}
+.ligne .ilot{
+    display: inline-block;
+    width: 50%;
+}
+.ligne .ilot .table{
+    display: inline-block;
+    height: 50%;
+    width: 10%;
+    min-height: 50px;
+    min-width: 50px;
+    border: 1px solid #000;
+    margin: 2%;
+}
